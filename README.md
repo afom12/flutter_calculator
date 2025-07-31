@@ -1,16 +1,48 @@
-# flutter_calculator
+# Flutter Calculator App
 
-A new Flutter project.
+![Calculator Demo](demo.gif) <!-- Replace with your actual demo gif -->
 
-## Getting Started
+A beautiful, responsive calculator app built with Flutter featuring:
+- Light/dark theme toggle
+- Scientific functions (sin, cos, tan, √, ^)
+- Radian/Degree mode
+- History tracking
+- Modern UI with smooth animations
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🎨 **Themes**: Switch between light and dark mode
+- 📱 **Responsive**: Works on mobile, web, and desktop
+- 🔢 **Scientific Functions**: Supports trigonometric functions, square roots, exponents
+- 📚 **History**: View your calculation history
+- ↔️ **Radian/Degree**: Toggle between angle modes
+- 🚀 **Performance**: Smooth animations and fast calculations
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Screenshots
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Light Mode | Dark Mode |
+|------------|-----------|
+| ![Light](screenshots/light.png) | ![Dark](screenshots/dark.png) |
+
+## Installation
+
+1. **Prerequisites**
+   - Flutter SDK (latest stable version)
+   - Dart SDK
+   - Android Studio/VSCode with Flutter plugin
+
+2. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/flutter-calculator.git
+   cd flutter-calculator
+3. **Install dependencies**
+   flutter pub get
+
+4. **Run the app**
+   flutter run
+
+5. **Dependencies**
+   math_expressions - For parsing and evaluating mathematical expressions
+   get - For state management and dependency injection
+   flutter_advanced_switch - For beautiful toggle switches
+   google_fonts - For custom typography
