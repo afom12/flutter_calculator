@@ -1,7 +1,5 @@
 # Flutter Calculator App
 
-![Calculator Demo](demo.gif) <!-- Replace with your actual demo gif -->
-
 A beautiful, responsive calculator app built with Flutter featuring:
 - Light/dark theme toggle
 - Scientific functions (sin, cos, tan, √, ^)
