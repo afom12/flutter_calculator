@@ -8,7 +8,7 @@ class CalculateController extends GetxController {
   var history = "";
   bool isRadians = false;
 
-  // Previous answer for ANS functionality
+  // Previous answer for ANS
   String _previousAnswer = "0";
 
   /// Equal Button Pressed Func
