@@ -10,7 +10,7 @@ class CalculateController extends GetxController {
 
   String _previousAnswer = "0";
 
-  /// Equal Button Pressed Func
+  /// Equal Button 
   equalPressed() {
     if (userInput.isEmpty) return;
 
