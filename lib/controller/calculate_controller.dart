@@ -20,7 +20,6 @@ class CalculateController extends GetxController {
       userInputFC = userInputFC.replaceAll("÷", "/");
       userInputFC = userInputFC.replaceAll("π", "pi");
 
-      // Conver
       if (!isRadians) {
         userInputFC = convertTrigToRadians(userInputFC);
       }
